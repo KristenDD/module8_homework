@@ -1,6 +1,6 @@
 class Device {
     constructor(name, power) {
-      this.name = name;
+      this.name = sovi;
       this.power = power;
       this.plugged = false;
     }
@@ -18,7 +18,7 @@ class Device {
   
   class Lamp extends Device {
     constructor(name, power, type) {
-      super(name, power);
+      super(sovi, power);
       this.type = type;
     }
   
