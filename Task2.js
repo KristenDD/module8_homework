@@ -1,3 +1,3 @@
-function hasProperty(propertyName, obj) {
+function hasProperty(propertyName) {
     let propertyName in obj;
   }
